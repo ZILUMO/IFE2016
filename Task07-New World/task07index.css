@@ -1,0 +1,624 @@
+/*清除所有默认样式*/
+body,div,ul,ol,li,h1,h2,h3,h4,h5,h6,form,input,textarea,p {
+	margin:0;
+	padding:0;
+}
+fieldset,img {
+	border:0;
+}
+ol,ul {
+	list-style:none;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-size:100%;
+	font-weight:normal;
+}
+q:before,q:after {
+	content:'';
+}
+abbr,acronym {
+	border:0;
+}
+a { 
+	text-decoration: none; 
+}
+a:hover { 
+	text-decoration: underline; 
+}
+/*导航*/
+.public-container{
+	margin: 0 auto;
+	width: 1280px;
+}
+.public-header{
+	height: 57px;
+	margin: 0 auto;
+}
+.public-header .header-logo{
+	float: left;
+	margin-top: 13px;
+	width: 104px;
+	height: 31px;
+	margin-left: 59px;
+}
+.public-header .header-logo span{
+	font-family: "SimHei","Microsoft YaHei";
+	color: rgb(57,58,58);
+	font-size: 21px; 
+	font-weight: bold;
+	display: block;
+	margin-left: 39px;
+	margin-top: -28px;
+}
+.public-header .header-logo a{
+	text-decoration: none;
+}
+.public-header .header-nav{
+	float: right;
+	margin-right: 20px;
+}
+
+.public-header .header-nav .item{
+	float: left;
+	font-size: 14px;
+	font-weight: bold;
+	list-style-type: none;
+	margin-top: 18px;
+	font: "Microsoft YaHei";
+	display: block;
+	text-align: center;
+	width: 101px;
+	height: 40px;
+	position: relative;
+}
+.public-header .header-nav .item:before{
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 34px;
+    width: 0;
+    height: 5px;
+    background: #e74f4d;
+    transition: 0.3s;
+}
+.public-header .header-nav .item:hover:before{
+    width: 100%;
+    left: 0;
+	right: 0;
+}
+.public-header .header-nav .item span{
+	margin-left:20px;
+}
+.public-header .header-nav .item img{
+	margin-left: -20px;
+}
+.public-header .header-nav a{
+	color: #787b83;
+	width: 100px;
+	height: 40px;
+	display: block;
+	transition-duration: 0.3s;
+}
+.public-header .header-nav a:hover{
+	color: #e74f4d;
+	text-decoration: none;
+	transition-duration: 0.3s;
+}
+
+/*主体*/
+.index-banner .shade{
+	width: 1280px;
+	height: 851px;
+	background-color:#000000;
+	position: absolute;
+	opacity: 0.2;
+}
+.index-banner-text{
+	font-size: 60px;
+	color: #fffdfd;
+	position: absolute;
+	top: 276px;
+	margin-left: 117px;
+	font-family: "Microsoft YaHei","SimHei";
+}
+.index-banner-text p{
+	font-family: "Microsoft YaHei","SimHei";
+	font-size: 21px;
+	margin-top: 21px;
+	margin-left: 9px;
+}
+.index-banner-text .login{
+	font-family: "Microsoft YaHei";
+	font-size: 30px;
+	width: 331px;
+	height: 65px;
+	background-color: #e7504d;
+	text-align: center;
+	margin-top: 56px;
+	margin-left: 9px;
+	line-height: 65px;
+}
+.index-banner-text .login a{
+	color: #ffffff;
+	width: 331px;
+	display: block;
+	transition-duration: 0.3s;
+}
+.index-banner-text .login a:hover{
+	text-decoration: none;
+	background-color: #ff6361;
+	transition-duration: 0.3s;
+}
+
+.index-banner .introduction{
+	width: 1280px;
+	height: 250px;
+	background-color: #ffffff;
+	margin-top: -163px;
+	position: absolute;
+}
+.index-banner .introduction ul{
+	float: left;
+}
+.index-banner .introduction li{
+	float: left;
+	width: 175px;
+	display: block;
+	margin-left: 145px;
+	margin-top: 46px;
+}
+.index-banner .introduction li p{
+	font-size: 14px;
+	font-family: "SimHei";
+	color: #767777;
+	width: 175px;
+	margin-left: -65px;
+	text-align: center;
+}
+
+
+/*活动*/
+.activity{
+	height: 466px;
+	background-color: #edecec;
+}
+.activity img{
+	margin-top: 184px;
+	margin-left: 595px;
+}
+.activity p{
+	margin-top: 48px;
+	margin-left: 212px;
+	font-size: 54px;
+	color: #90a5a8;
+	font-family: "SimHei";
+}
+
+/*地点*/
+.city{
+	height: 340px;
+	width: 1280px;
+	background: url(../task_1_7_1-assets/task_1_7_1_0000s_0004s_0023_看地图.png);
+}
+.city h6{
+	color: #fbf6f6;
+	margin-left: 501px;
+	margin-top: 52px;
+	font-family: "Microsoft YaHei";
+	font-size: 21px;
+	position: absolute;
+}
+.city span{
+	margin-left: 105px;
+	margin-top: -7px;
+	position: absolute;
+}
+.city p{
+	color: #f5f0f0;
+	font-size: 12px;
+	font-family: "Microsoft YaHei";
+	position: absolute;
+	margin-left: 449px;
+	margin-top: 106px;
+}
+/*搜索框*/
+.city .choice{
+	margin-left: 128px;
+	margin-top: 171px;
+	position: absolute;
+}
+.city .choice form select{
+	float: left;
+	width: 236px;
+	height: 36px;
+	margin-right: 27px;
+	padding-left: 12px;
+	color: #a8aaaa;
+	background: url(../task_1_7_1-assets/task_1_7_1_0000s_0003s_0003__编组_.png) no-repeat;
+	background-position: 95% 50%;
+	background-color: #ffffff;
+	/*很关键：将默认的select选择框样式清除*/
+	appearance:none;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+}
+.city .choice option{
+	background-color: #e3e2e4;
+}
+.city .choice .sub-1{
+	width: 234px;
+	height: 36px;
+	background-color: #e7504d;
+	color: #ffffff;
+	border: 0;
+	transition-duration: 0.3s;
+}
+.city .choice .sub-1:hover{
+	background-color: #92231d;
+	transition-duration: 0.3s;
+}
+.place{
+	height: 605px;
+	background-color: #f7f7f7;
+}
+.place .frame{
+	width: 220px;
+	height: 337px;
+	background-color: #ffffff;
+	border: 2px solid #ede9e9;
+	float: left;
+	margin-left: 36px;
+	margin-top: 101px;
+	font-family: "Microsoft YaHei";
+	font-size: 16px;
+	text-align: center;
+}
+.place .frame p{
+	margin-top: 18px;
+}
+.place span{
+	font-size: 14px;
+	color: #9e9b9b;
+}
+.place img{
+	margin-top: 12px;
+}
+.place .frame-beijing{
+	margin-left: 147px;
+}
+.place .frame-shanghai{
+	margin-top: 146px;
+}
+.place .frame-shanghai h3{
+	margin-top: -50px;
+	letter-spacing: 28px;
+	font-size: 18px;
+	padding-left: 25px;
+}
+.place .frame-shanghai p{
+	margin-top: -20px;
+}
+.place .frame-shanghai img{
+	margin-top: 19px;
+}
+/*details-public*/
+.details{
+	height: 566px;
+	font-family: "Microsoft YaHei";
+}
+/*details-left*/
+.details-img{
+	float: left;
+	width: 850px;
+	height: 566px;
+	background:url("../task_1_7_1-assets/task_1_7_1_0000s_0003s_0012_图七.png");
+}
+.details-text{
+	margin-top: 132px;
+	text-align: center;
+	color: #ffffff;
+}
+.details-text h6{
+	font-size: 50px;
+}
+.details-text p{
+	font-size: 160px;
+	margin-top: -40px;
+}
+.details-text .time{
+	font-size: 21.91px;
+	line-height: 43px;
+	margin-top: -27px;
+}
+/*details-right*/
+.details .introduce{
+	float: left;
+	width: 430px;
+	text-align: center;
+	font-size: 12px;
+}
+.details .introduce h6{
+	margin-top: 166px;
+	font-size: 20px;
+	font-family: "SimHei";
+	font-weight: bold;
+}
+.details .introduce span{
+	color: #e7504d;
+}
+.details .introduce p{
+	color: #aaaaaa;
+	line-height: 30px;
+	margin-top: 20px;
+}
+.details .introduce a{
+	display: block;
+	width: 107px;
+	height: 35px;
+	margin-left: 162px;
+	margin-top: 35px;
+	color: #e7504d;
+	border: 1px solid #e7504d;
+	line-height: 35px;
+	text-decoration: none;
+	transition-duration: 0.3s;
+}
+.details .introduce a:hover{
+	background-color: #e7504d;
+	color: #ffffff;
+	transition-duration: 0.3s;
+}
+/*more-public*/
+.more{
+	height: 521px;
+	font-size: 21px;
+	text-align: center;
+	font-family: "SimHei";
+}
+.more-left ,.more-center{
+	height:521px;
+}
+.more h5{
+	margin-top: 174px;
+	line-height: 30px;
+}
+.more .more-text{
+	display: block;
+	text-decoration: none;
+	width: 170px;
+	height: 44px;
+	margin-left: 128px;
+	margin-top: 5px;
+	line-height: 45px;
+	transition-duration: 0.3s;
+}
+/*more-left*/
+.more .more-left{
+	float: left;
+	width: 426px;
+	color: #ffffff;
+	background-color: #e7504d;
+}
+.more .more-left a{
+	border: 1px solid #ffffff;
+	color: #ffffff;
+}
+.more .more-left a:hover{
+	background-color: #ffffff;
+	color: #e7504d;
+	transition-duration: 0.3s;
+}
+/*more-center*/
+.more .more-center{
+	position: absolute;
+	margin-left: 426px;
+	width: 426px;
+	color: #e7504d;
+}
+.more .more-center a{
+	border: 1px solid #e7504d;
+	color: #e7504d;
+}
+.more .more-center a:hover{
+	background-color: #e7504d;
+	color: #ffffff;
+	transition-duration: 0.3s;
+}
+/*more-right*/
+.more img{
+	float: right;
+}
+
+
+.apply{
+	height: 750px;
+}
+.apply{
+	height: 750px;
+}
+.apply .apply-text{
+	text-align: center;
+}
+.apply .apply-text h1{
+	padding-top: 120px;
+	font-family: "SimHei";
+	font-size: 21px;
+}
+.apply .apply-text h1:after{
+	display: block;
+	content: '';
+	margin: 10px auto;
+	width: 31px;
+	height: 2px;
+	background-color: #FD323D;
+}
+.apply .apply-text p{
+	margin-bottom: 100px;
+	color: #aaaaaa;
+	font-size: 12px;
+	font-family: "Microsoft YaHei";
+}
+.apply .describe{
+	width: 80%;
+	margin: 0 auto;
+}
+.apply .describe .describe-info{
+	float: left;
+	width: 28%;
+}
+.apply .describe .describe-info h4{
+	font-size: 14px;
+	font-family: "SimHei";
+	color: #231815;
+	margin-bottom: 20px;
+}
+.apply .describe .describe-more{
+	margin-top: -15px;
+	color: 231815;
+}
+.apply .describe .describe-info li{
+	margin-bottom: 47px;
+}
+.describe-info li p{
+	font-size: 12px;
+	color: #aba6a5;
+}
+.describe-info li a{
+	float: right;
+	color: #aba6a5;
+	font-size: 12px;
+}
+.describe-form{
+	width: 64%;
+	float: right;
+}
+.apply .form-list{
+	width: 47%;
+	float: left;
+	margin-bottom: 20px;
+}
+.apply .form-list:nth-child(2n){
+	float: right;
+}
+.apply .form-list input{
+	border: 0;
+	float: left;
+	height: 40px;
+	width: 100%;
+	background-color: #edecee;
+	padding-left: 15px;
+}
+.apply .form-list.textarea{
+	width: 100%;
+}
+.apply .form-list.textarea textarea{
+	width: 100%;
+	padding-left: 15px;
+	padding-top: 10px;
+	border: 0;
+	height: 100px;
+	background-color: #edecee;
+}
+.apply #sub-btn1{
+	float: left;
+	width: 100%;
+	padding-left: 15px;
+	background-color: #edecee;
+}
+.apply .btn-reg{
+	width: 100%;
+	height: 40px;
+	border: 0;
+	font-size: 14px;
+	font-family: "SimHei";
+	background-color: #edecee; 
+	cursor: pointer;
+	transition-duration: 0.3s;
+}
+.apply .btn-reg:hover{
+	background-color: #444d4e;
+	color: #ffffff;
+	transition-duration: 0.3s;
+}
+
+
+
+/*底部*/
+.contact{
+	margin:0 auto;
+	height: 358px;
+	background-color: rgb(50,54,62);
+}
+.contact h5{
+	font-size: 21px;
+	font-family: "SimHei";
+	text-align: center;
+	color: #ffffff;
+	padding-top: 93px;
+}
+.contact p{
+	font-size: 12px;
+	font-family: "SimSun";
+	text-align: center;
+	margin-top: 11px;
+	line-height: 22px;
+	color: #ffffff;
+}
+.contact-form .input-box{
+	color: #aaaaaa;
+	font-size: 14px;
+	font-family: "Microsoft YaHei";
+	width: 430px;
+	height: 41px;
+	margin-left: 385px;
+	margin-top: 30px;
+}
+.public-container .contact-form button{
+	width: 81px;
+	text-align: center;
+	height: 45px;
+	color: #ffffff;
+	background-color: #6f7178;
+	font-size: 15px;
+	margin-left: -9px;
+	border: 0;
+}
+.contact-form .share{
+	width: 261px;
+	margin-left: 506px;
+	margin-top: 37px;
+}
+.contact-form .share a{
+	margin-left: 29px;
+}
+.public-footer{
+	margin: 0 auto;
+	background-color: #303038;
+	height: 58px;
+}
+.public-footer p{
+	float: left;
+	color: #ffffff;
+	font-size: 12px;
+	font-family: "SimSun";
+	margin-left: 100px;
+	padding-top: 31px;
+}
+.public-footer .back{
+	display: block;
+	float: right;
+	text-align: center;
+	font-family: "SimSun";
+	width: 147px;
+	font-size: 12px;
+	height: 58px;
+	color: #ffffff;
+}
+.public-footer .back p{
+	padding-top: 31px;
+	margin-left: 40px;
+}
+.public-footer .back:hover{
+	text-decoration: none;
+	background-color: #2f406d;
+}
